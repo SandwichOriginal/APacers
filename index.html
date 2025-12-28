@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>APacers - Find Your Perfect Tutor | Expert Online Tutoring</title>
+    <meta name="title" content="APacers - Find Your Perfect Tutor | Expert Online Tutoring">
+    <meta name="description" content="Connect with 5,000+ expert tutors in minutes. Math, Science, Coding, Test Prep & more. Rated 4.9★ by 50K+ students. Start learning today with APacers.">
+    <meta name="keywords" content="online tutoring, tutors, math tutor, science tutor, AP courses, SAT prep, ACT prep, coding tutor, chemistry tutor, calculus tutor, test prep, homework help, online learning">
+    <meta name="author" content="APacers">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apacers.com/">
+    <meta property="og:title" content="APacers - Find Your Perfect Tutor">
+    <meta property="og:description" content="Connect with expert tutors in minutes. From math to coding, languages to test prep. Join 50K+ students with 4.9★ ratings.">
+    <meta property="og:image" content="/apacers.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="APacers - Online Tutoring Platform">
+    <meta property="og:site_name" content="APacers">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://apacers.com/">
+    <meta name="twitter:title" content="APacers - Find Your Perfect Tutor">
+    <meta name="twitter:description" content="Connect with expert tutors in minutes. From math to coding, languages to test prep. Join 50K+ students with 4.9★ ratings.">
+    <meta name="twitter:image" content="/apacers.jpg">
+    <meta name="twitter:image:alt" content="APacers - Online Tutoring Platform">
+    <meta name="twitter:creator" content="@apacers">
+    <meta name="twitter:site" content="@apacers">
+    
+    <!-- Discord -->
+    <meta property="og:image:type" content="image/jpeg">
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="application-name" content="APacers">
+    <meta name="apple-mobile-web-app-title" content="APacers">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="/apacers.jpg">
+    <link rel="apple-touch-icon" href="/apacers.jpg">
+    <link rel="shortcut icon" href="/apacers.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apacers.com/">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "APacers",
+      "description": "Expert online tutoring platform connecting students with qualified tutors",
+      "url": "https://apacers.com",
+      "logo": "https://apacers.com/apacers.jpg",
+      "image": "https://apacers.com/apacers.jpg",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "50000"
+      },
+      "sameAs": [
+        "https://twitter.com/apacers",
+        "https://facebook.com/apacers",
+        "https://instagram.com/apacers"
+      ]
+    }
+    </script>
+    
+    <title>APacers - Find Your Perfect Tutor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid #eee;
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            z-index: 100;
+            animation: slideDown 0.5s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #6366f1;
+            letter-spacing: -1px;
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #6366f1;
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #6366f1;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .hero {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 6rem 2rem 4rem;
+            text-align: center;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            color: #1a1a1a;
+            line-height: 1.1;
+            background: linear-gradient(135deg, #1a1a1a 0%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            color: #666;
+            margin-bottom: 2.5rem;
+            animation: fadeInUp 0.8s ease-out 0.2s backwards;
+        }
+
+        .cta-btn {
+            background: #6366f1;
+            color: white;
+            padding: 1.2rem 3rem;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 4px 14px rgba(99, 102, 241, 0.3);
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 0.8s ease-out 0.4s backwards;
+        }
+
+        .cta-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        .cta-btn:hover::before {
+            left: 100%;
+        }
+
+        .cta-btn:hover {
+            background: #4f46e5;
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
+        }
+
+        .cta-btn:active {
+            transform: translateY(-1px) scale(1.02);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 3rem;
+            font-weight: 800;
+            color: #1a1a1a;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .subjects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .subject-card {
+            background: #f9fafb;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            color: #1a1a1a;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 2px solid transparent;
+            cursor: pointer;
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-out forwards;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .subject-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            opacity: 0;
+            transition: opacity 0.4s;
+            z-index: 0;
+        }
+
+        .subject-card:hover::before {
+            opacity: 1;
+        }
+
+        .subject-card span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .subject-card:hover {
+            color: white;
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+            border-color: #6366f1;
+        }
+
+        .subject-card:nth-child(1) { animation-delay: 0.1s; }
+        .subject-card:nth-child(2) { animation-delay: 0.15s; }
+        .subject-card:nth-child(3) { animation-delay: 0.2s; }
+        .subject-card:nth-child(4) { animation-delay: 0.25s; }
+        .subject-card:nth-child(5) { animation-delay: 0.3s; }
+        .subject-card:nth-child(6) { animation-delay: 0.35s; }
+        .subject-card:nth-child(7) { animation-delay: 0.4s; }
+        .subject-card:nth-child(8) { animation-delay: 0.45s; }
+        .subject-card:nth-child(9) { animation-delay: 0.5s; }
+        .subject-card:nth-child(10) { animation-delay: 0.55s; }
+        .subject-card:nth-child(11) { animation-delay: 0.6s; }
+        .subject-card:nth-child(12) { animation-delay: 0.65s; }
+
+        .pricing-section {
+            background: linear-gradient(180deg, #f9fafb 0%, #ffffff 100%);
+            padding: 5rem 2rem;
+            position: relative;
+        }
+
+        .pricing-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #6366f1, transparent);
+        }
+
+        .pricing-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .price-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 16px;
+            text-align: center;
+            border: 2px solid #eee;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-out forwards;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .price-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .price-card:hover::before {
+            opacity: 1;
+        }
+
+        .price-card:nth-child(1) { animation-delay: 0.1s; }
+        .price-card:nth-child(2) { animation-delay: 0.2s; }
+        .price-card:nth-child(3) { animation-delay: 0.3s; }
+
+        .price-card:hover {
+            border-color: #6366f1;
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
+        }
+
+        .price-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+            position: relative;
+        }
+
+        .price {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #6366f1;
+            margin: 1.5rem 0;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        .price-card:hover .price {
+            transform: scale(1.1);
+        }
+
+        .price span {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .testimonials {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card {
+            background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+            padding: 2.5rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            transition: all 0.4s ease;
+            border: 1px solid #eee;
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-out forwards;
+            cursor: pointer;
+        }
+
+        .testimonial-card:nth-child(1) { animation-delay: 0.1s; }
+        .testimonial-card:nth-child(2) { animation-delay: 0.2s; }
+        .testimonial-card:nth-child(3) { animation-delay: 0.3s; }
+
+        .testimonial-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-color: #6366f1;
+        }
+
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.3rem;
+            transition: transform 0.3s;
+        }
+
+        .testimonial-card:hover .avatar {
+            transform: rotate(360deg) scale(1.1);
+        }
+
+        .testimonial-info h4 {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .testimonial-info p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .testimonial-text {
+            color: #333;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: #999;
+            text-align: center;
+            padding: 3rem 2rem;
+            margin-top: 5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #6366f1, transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                left: -100%;
+            }
+            100% {
+                left: 100%;
+            }
+        }
+
+        footer p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .stat:nth-child(1) { animation-delay: 0.6s; }
+        .stat:nth-child(2) { animation-delay: 0.7s; }
+        .stat:nth-child(3) { animation-delay: 0.8s; }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #6366f1;
+            transition: transform 0.3s;
+        }
+
+        .stat:hover .stat-number {
+            transform: scale(1.2);
+        }
+
+        .stat-label {
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .subjects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats {
+                gap: 2rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #6366f1;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4f46e5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">APacers</div>
+            <ul class="nav-links">
+                <li><a>Subjects</a></li>
+                <li><a>Pricing</a></li>
+                <li><a>Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="floating">Learn anything, master everything</h1>
+        <p>Connect with expert tutors in minutes. From math to coding, languages to test prep.</p>
+        <button class="cta-btn">Find a Tutor</button>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">5,000+</div>
+                <div class="stat-label">Tutors</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">50K+</div>
+                <div class="stat-label">Students</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">4.9★</div>
+                <div class="stat-label">Rating</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">Popular Subjects</h2>
+        <div class="subjects-grid">
+            <div class="subject-card"><span>Math</span></div>
+            <div class="subject-card"><span>Science</span></div>
+            <div class="subject-card"><span>English</span></div>
+            <div class="subject-card"><span>History</span></div>
+            <div class="subject-card"><span>Coding</span></div>
+            <div class="subject-card"><span>Languages</span></div>
+            <div class="subject-card"><span>SAT/ACT</span></div>
+            <div class="subject-card"><span>AP Courses</span></div>
+            <div class="subject-card"><span>Physics</span></div>
+            <div class="subject-card"><span>Chemistry</span></div>
+            <div class="subject-card"><span>Biology</span></div>
+            <div class="subject-card"><span>Calculus</span></div>
+        </div>
+    </div>
+
+    <section class="pricing-section">
+        <h2 class="section-title">Simple Pricing</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Standard</h3>
+                <div class="price">$25<span>/hr</span></div>
+                <p style="color: #666;">Great tutors for everyday help</p>
+            </div>
+            <div class="price-card">
+                <h3>Professional</h3>
+                <div class="price">$45<span>/hr</span></div>
+                <p style="color: #666;">Expert tutors with proven results</p>
+            </div>
+            <div class="price-card">
+                <h3>Elite</h3>
+                <div class="price">$70<span>/hr</span></div>
+                <p style="color: #666;">Top-tier specialists</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">What Students Say</h2>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="avatar">J</div>
+                    <div class="testimonial-info">
+                        <h4>Jamie Chen</h4>
+                        <p>Calculus Student</p>
+                    </div>
+                </div>
+                <p class="testimonial-text">"My grade went from a C to an A in just 6 weeks. My tutor explained concepts in ways that actually made sense."</p>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="avatar">M</div>
+                    <div class="testimonial-info">
+                        <h4>Marcus Williams</h4>
+                        <p>SAT Prep</p>
+                    </div>
+                </div>
+                <p class="testimonial-text">"Increased my SAT score by 200 points. The strategies my tutor taught me were game-changing."</p>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="avatar">S</div>
+                    <div class="testimonial-info">
+                        <h4>Sarah Park</h4>
+                        <p>Chemistry Student</p>
+                    </div>
+                </div>
+                <p class="testimonial-text">"Chemistry finally clicked for me. Flexible scheduling made it easy to fit sessions around my sports practice."</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p style="font-size: 1.1rem; color: #ccc; margin-bottom: 1rem;">Start learning today</p>
+        <p>&copy; 2025 APacers. Connecting students with great tutors.</p>
+    </footer>
+</body>
+</html>
