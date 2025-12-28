@@ -16,11 +16,11 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://apacers.com/">
+    <meta property="og:url" content="https://sandwichoriginal.github.io/APacers/">
     <meta property="og:title" content="APacers - Find Your Perfect Tutor">
     <meta property="og:description" content="Connect with expert tutors in minutes. From math to coding, languages to test prep. Join 50K+ students with 4.9★ ratings.">
-    <meta property="og:image" content="https://apacers.com/apacers.jpg">
-    <meta property="og:image:secure_url" content="https://apacers.com/apacers.jpg">
+    <meta property="og:image" content="https://sandwichoriginal.github.io/APacers/apacers.jpg">
+    <meta property="og:image:secure_url" content="https://sandwichoriginal.github.io/APacers/apacers.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="APacers - Online Tutoring Platform">
@@ -29,10 +29,10 @@
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://apacers.com/">
+    <meta name="twitter:url" content="https://sandwichoriginal.github.io/APacers/">
     <meta name="twitter:title" content="APacers - Find Your Perfect Tutor">
     <meta name="twitter:description" content="Connect with expert tutors in minutes. From math to coding, languages to test prep. Join 50K+ students with 4.9★ ratings.">
-    <meta name="twitter:image" content="https://apacers.com/apacers.jpg">
+    <meta name="twitter:image" content="https://sandwichoriginal.github.io/APacers/apacers.jpg">
     <meta name="twitter:image:alt" content="APacers - Online Tutoring Platform">
     <meta name="twitter:creator" content="@apacers">
     <meta name="twitter:site" content="@apacers">
@@ -50,12 +50,12 @@
     <meta name="mobile-web-app-capable" content="yes">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="/apacers.jpg">
-    <link rel="apple-touch-icon" href="/apacers.jpg">
-    <link rel="shortcut icon" href="/apacers.jpg">
+    <link rel="icon" type="image/jpeg" href="https://sandwichoriginal.github.io/APacers/apacers.jpg">
+    <link rel="apple-touch-icon" href="https://sandwichoriginal.github.io/APacers/apacers.jpg">
+    <link rel="shortcut icon" href="https://sandwichoriginal.github.io/APacers/apacers.jpg">
     
     <!-- Canonical -->
-    <link rel="canonical" href="https://apacers.com/">
+    <link rel="canonical" href="https://sandwichoriginal.github.io/APacers/">
     
     <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@type": "EducationalOrganization",
       "name": "APacers",
       "description": "Expert online tutoring platform connecting students with qualified tutors",
-      "url": "https://apacers.com",
-      "logo": "https://apacers.com/apacers.jpg",
-      "image": "https://apacers.com/apacers.jpg",
+      "url": "https://sandwichoriginal.github.io/APacers/",
+      "logo": "https://sandwichoriginal.github.io/APacers/apacers.jpg",
+      "image": "https://sandwichoriginal.github.io/APacers/apacers.jpg",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
@@ -127,6 +127,9 @@
         }
 
         .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
             font-size: 1.8rem;
             font-weight: 800;
             color: #6366f1;
@@ -136,6 +139,13 @@
 
         .logo:hover {
             transform: scale(1.05);
+        }
+
+        .logo img {
+            height: 40px;
+            width: 40px;
+            border-radius: 8px;
+            object-fit: cover;
         }
 
         .nav-links {
@@ -619,7 +629,10 @@
 <body>
     <header>
         <nav>
-            <div class="logo">APacers</div>
+            <div class="logo">
+                <img src="https://sandwichoriginal.github.io/APacers/apacers.jpg" alt="APacers Logo">
+                APacers
+            </div>
             <ul class="nav-links">
                 <li><a>Subjects</a></li>
                 <li><a>Pricing</a></li>
